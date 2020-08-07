@@ -41,4 +41,5 @@ io.on('connection', socket =>{
     
 })
 
-server.listen(3050)
+let PORT = process.env.PORT || 3050
+server.listen(PORT)
